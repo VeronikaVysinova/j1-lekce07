@@ -33,6 +33,8 @@ public class HlavniProgram {
         svatky.pridejSvatek("Kevin", MonthDay.of(Month.JUNE, 3));
         System.out.printf("Po přidání Laury, Jarmila, Tamary a Kevina je v seznamu je %d jmen.", svatky.getPocetJmen()).println();
 */
+
+        svatky.vratKdyMaSvatek("Zikmund");
     }
 
 }
