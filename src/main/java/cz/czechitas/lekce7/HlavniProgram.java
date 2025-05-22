@@ -23,18 +23,18 @@ public class HlavniProgram {
         System.out.println("V seznamu jsou následující jména:");
         svatky.getSeznamJmen().forEach(jmeno -> System.out.printf("- %s", jmeno).println());
 
-/*
+
         svatky.smazSvatek("Přemysl");
-        System.out.printf("Po smazání Přemysla je v seznamu je %d jmen.", svatky.getPocetJmen()).println();
+        System.out.printf("Po smazání Přemysla je v seznamu %d jmen.", svatky.getPocetJmen()).println();
 
         svatky.pridejSvatek("Laura", 1, 6);
         svatky.pridejSvatek("Jarmil", 2, Month.JUNE);
         svatky.pridejSvatek("Tamara", MonthDay.of(6, 3));
         svatky.pridejSvatek("Kevin", MonthDay.of(Month.JUNE, 3));
-        System.out.printf("Po přidání Laury, Jarmila, Tamary a Kevina je v seznamu je %d jmen.", svatky.getPocetJmen()).println();
-*/
+        System.out.printf("Po přidání Laury, Jarmila, Tamary a Kevina je v seznamu %d jmen.", svatky.getPocetJmen()).println();
 
-        svatky.vratKdyMaSvatek("Zikmund");
+
+
     }
 
 }

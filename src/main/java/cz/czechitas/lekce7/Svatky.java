@@ -108,7 +108,7 @@ public class Svatky {
      * @param mesic Měsíc, kdy má dané jméno svátek (1–12).
      */
     public void pridejSvatek(String jmeno, int den, int mesic) {
-        //TODO
+        pridejSvatek(jmeno, MonthDay.of(den, mesic));
     }
 
     /**
@@ -119,8 +119,7 @@ public class Svatky {
      * @param mesic Měsíc, kdy má dané jméno svátek.
      */
     public void pridejSvatek(String jmeno, int den, Month mesic) {
-        //TODO
-        // zavolam metodu put
+        pridejSvatek(jmeno,MonthDay.of(mesic,den));
     }
 
     /**
